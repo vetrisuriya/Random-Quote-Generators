@@ -14,7 +14,7 @@ body {
   place-items: center;
 }
 body .card {
-  width: 350px;
+  width: 400px;
   background-color: #abd1c6;
   padding: 15px 30px;
   border-radius: 5px;
@@ -52,7 +52,7 @@ body .card .card-footer {
   margin-top: 15px;
   row-gap: 15px;
   border-top: 2px solid #004643;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 body .card .card-footer .card-title {
   font-size: 20px;
@@ -69,7 +69,7 @@ body .card .card-footer .card-bottom {
       -ms-flex-align: center;
           align-items: center;
 }
-body .card .card-footer .card-bottom button {
+body .card .card-footer .card-bottom a, body .card .card-footer .card-bottom button {
   background: #004643;
   border: 0;
   outline: none;
@@ -79,14 +79,20 @@ body .card .card-footer .card-bottom button {
   display: grid;
   place-items: center;
 }
-body .card .card-footer .card-bottom button:first-of-type {
+body .card .card-footer .card-bottom a {
   padding: 6px 8px;
 }
-body .card .card-footer .card-bottom button:first-of-type img {
+body .card .card-footer .card-bottom a img {
   width: 20px;
 }
-body .card .card-footer .card-bottom button:last-of-type {
+body .card .card-footer .card-bottom button {
   padding: 8px 10px;
   color: #abd1c6;
   font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  body .card {
+    width: 320px;
+  }
 }

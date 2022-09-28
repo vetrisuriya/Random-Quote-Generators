@@ -12,7 +12,7 @@ body {
     display: grid;
     place-items: center;
     .card {
-        width: 350px;
+        width: 400px;
         background-color: $lightColor;
         padding: 15px 30px;
         border-radius: 5px;
@@ -40,7 +40,7 @@ body {
             margin-top: 15px;
             row-gap: 15px;
             border-top: 2px solid $darkColor;
-            padding-top: 10px;
+            padding-top: 15px;
             .card-title {
                 font-size: 20px;
                 text-align: center;
@@ -49,7 +49,7 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                button {
+                a, button {
                     background: $darkColor;
                     border: 0;
                     outline: none;
@@ -58,18 +58,26 @@ body {
                     display: grid;
                     place-items: center;
                 }
-                button:first-of-type {
+                a {
                     padding: 6px 8px;
                     img {
                         width: 20px;
                     }
                 }
-                button:last-of-type {
+                button {
                     padding: 8px 10px;
                     color: $lightColor;
                     font-weight: bold;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        .card {
+            width: 320px;
         }
     }
 }

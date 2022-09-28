@@ -1,16 +1,13 @@
-<h1 align="center">Waitlist</h1>
-
 <div align="center">
-  <h3>
-    <a href="https://rvs-waitlist.vercel.app/">Preview Website</a>
-  </h3>
+    <h3>
+        <a href="rvs-quotes-generator.vercel.app">Quotes Generator</a>
+    </h3>
 </div>
 
 ## Overview
 
-![Desktop](./Screenshots/desktop.jpeg)
-![Tablet](./Screenshots/tablet.jpeg)
-![Mobile](./Screenshots/mobile.jpeg)
+![Desktop](./Screenshots/desktop.png)
+![Mobile](./Screenshots/mobile.png)
 
 ## Built With
 
