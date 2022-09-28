@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #004643;
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+body .card {
+  width: 350px;
+  background-color: #abd1c6;
+  padding: 15px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 10px #00000085;
+          box-shadow: 3px 3px 10px #00000085;
+}
+body .card .card-body, body .card .card-footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 5px;
+}
+body .card .card-body .card-quote, body .card .card-footer .card-quote {
+  text-align: center;
+}
+body .card .card-body .card-quote img, body .card .card-footer .card-quote img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 50px;
+}
+body .card .card-body .card-content, body .card .card-footer .card-content {
+  font-size: 20px;
+  text-align: center;
+}
+body .card .card-footer {
+  width: 100%;
+  margin-top: 15px;
+  row-gap: 15px;
+  border-top: 2px solid #004643;
+  padding-top: 10px;
+}
+body .card .card-footer .card-title {
+  font-size: 20px;
+  text-align: center;
+}
+body .card .card-footer .card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .card .card-footer .card-bottom button {
+  background: #004643;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+body .card .card-footer .card-bottom button:first-of-type {
+  padding: 6px 8px;
+}
+body .card .card-footer .card-bottom button:first-of-type img {
+  width: 20px;
+}
+body .card .card-footer .card-bottom button:last-of-type {
+  padding: 8px 10px;
+  color: #abd1c6;
+  font-weight: bold;
+}
