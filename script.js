@@ -7,14 +7,8 @@ const quoteUrl = "https://zenquotes.io/api/random";
 
 (function nQ() {
     
-    const xmlHttp = new XMLHttpRequest();
-    xmlHttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            console.log(this.responseText);
-        }
-    };
-    xmlHttp.open("GET", quoteUrl, true);
-    xmlHttp.setRequestHeader("content-type", "application/json");
-    xmlHttp.send();
+    fetch(quoteUrl)
+    .then(res => res.json())
+    .then(res => console.log(res));
 
 })();
