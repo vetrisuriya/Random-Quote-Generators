@@ -1,6 +1,6 @@
 <div align="center">
     <h3>
-        <a href="rvs-quotes-generator.vercel.app">Quotes Generator</a>
+        <a href="https://rvs-quotes-generator.vercel.app/">Quotes Generator</a>
     </h3>
 </div>
 
